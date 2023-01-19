@@ -60,7 +60,6 @@
           <!-- Theme change button -->
           <i class="uil uil-moon change-theme" id="theme-button"></i>
 
-
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -154,7 +153,7 @@
             <p class="about__description">
               Formado em Redes de Computadores, atualmente me especializando em
               Banco de Dados, possuo conhecimentos básicos em desenvolvimento
-              web e estou em constante aprendizado.
+              web e construção de sites na plataforma Wordpress.
             </p>
             <div class="about__info">
               <div>
@@ -386,7 +385,26 @@
                 <div>
                   <h3 class="qualification__title">Web Designer</h3>
                   <span class="qualification__subtitle">Bio Store</span>
+                  <span
+                    class="button button--flex button--small button--link services__button"
+                  >
+                    Atividades desenvolvidas
+                  </span>
+                  <div class="services__modal">
+                    <div class="services__modal-content">
+                      <i class="uil uil-times services__modal-close"></i>
+                      <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                          <i
+                            class="uil uil-check-circle services__modal-icon"
+                          ></i>
+                          <p>Manutenção de e-commerce na plataforma VTEX</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                   <div class="qualification__calendar">
+                    <br />
                     <i class="uil uil-calendar-alt"></i>
                     2021 - 2022
                   </div>
@@ -438,7 +456,9 @@
                       </ul>
                     </div>
                   </div>
+
                   <div class="qualification__calendar">
+                    <br />
                     <i class="uil uil-calendar-alt"></i>
                     2019 - 2021
                   </div>
@@ -483,6 +503,10 @@
                         Desenvolvimento de sites utilizando tecnologias web
                         (html, css e js) e frameworks (react/django)
                       </p>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon"></i>
+                      <p>Construção de Sites no Wordpress</p>
                     </li>
                   </ul>
                 </div>
@@ -535,40 +559,50 @@
           <div class="swiper-wrapper">
             <!------ PORTFOLIO 1 --------->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/about.jpg" alt="" class="portfolio__img" />
+              <img
+                src="assets/img/screencapture-satmaqconsultoria-br-.png"
+                alt=""
+                class="portfolio__img"
+              />
               <div class="portfolio__data">
-                <h3 class="portfolio__title">Contador</h3>
+                <h3 class="portfolio__title">SATMAQ</h3>
                 <p class="portfolio__description">
-                  Projeto realizado para aprendizado de js
+                  Construção de site institucional em Wordpress
                 </p>
                 <a
-                  href="#"
+                  href="https://www.satmaqconsultoria.com.br/"
                   class="button button--flex button--small portfolio__button"
                 >
-                  Demo
+                  Acessar
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
               </div>
             </div>
             <!------ PORTFOLIO 2 --------->
             <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/about.jpg" alt="" class="portfolio__img" />
+              <img
+                src="assets/img/screencapture-lasmarcruz-adv-br.png"
+                alt=""
+                class="portfolio__img"
+              />
               <div class="portfolio__data">
-                <h3 class="portfolio__title">ToDo List</h3>
+                <h3 class="portfolio__title">
+                  Lasmar Cruz Adv <br />[Em desenvolvimento]
+                </h3>
                 <p class="portfolio__description">
-                  Projeto realizado para aprendizado de js e react
+                  Construção de site institucional em Wordpress
                 </p>
                 <a
                   href="#"
                   class="button button--flex button--small portfolio__button"
                 >
-                  Demo
+                  Acessar
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
               </div>
             </div>
             <!------ PORTFOLIO 3 --------->
-            <div class="portfolio__content grid swiper-slide">
+            <!-- <div class="portfolio__content grid swiper-slide">
               <img src="assets/img/about.jpg" alt="" class="portfolio__img" />
               <div class="portfolio__data">
                 <h3 class="portfolio__title">CPSR - App</h3>
@@ -583,7 +617,7 @@
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
               </div>
-            </div>
+            </div> -->
           </div>
           <!-- ADD ARROWS-->
           <div class="swiper-button-next">
@@ -730,24 +764,30 @@
             </div>
           </div>
 
-          <form action="" class="contact__form grid">
+          <!-- <form action="" class="contact__form grid">
             <div class="contact__inputs grid">
               <div class="contact__content">
                 <label for="" class="contact__label">Nome</label>
-                <input type="text" class="contact__input">
+                <input type="text" class="contact__input" />
               </div>
               <div class="contact__content">
                 <label for="" class="contact__label">Email</label>
-                <input type="email" class="contact__input">
+                <input type="email" class="contact__input" />
               </div>
             </div>
             <div class="contact__content">
               <label for="" class="contact__label">Tipo de Serviço</label>
-              <input type="text" class="contact__input">
+              <input type="text" class="contact__input" />
             </div>
             <div class="contact__content">
               <label for="" class="contact__label">Mensagem</label>
-              <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
             </div>
             <div>
               <a href="#" class="button button--flex">
@@ -755,10 +795,9 @@
                 <i class="uil uil-message button__icon"></i>
               </a>
             </div>
-          </form>
+          </form> -->
         </div>
       </section>
-
     </main>
 
     <!------ FOOTER --------->
@@ -767,7 +806,10 @@
         <div class="footer__container container grid">
           <div>
             <h1 class="footer__title">Jonas</h1>
-            <span class="footer__subtitle">Desenvolvedor Frontend e (futuro) especialista em Banco de dados</span>
+            <span class="footer__subtitle"
+              >Desenvolvedor Frontend e (futuro) especialista em Banco de
+              dados</span
+            >
           </div>
 
           <ul class="footer__links">
@@ -783,10 +825,18 @@
           </ul>
 
           <div class="footer__socials">
-            <a href="https://www.linkedin.com/in/jonasdspereira/" target="_blank" class="footer__social">
+            <a
+              href="https://www.linkedin.com/in/jonasdspereira/"
+              target="_blank"
+              class="footer__social"
+            >
               <i class="uil uil-linkedin-alt"></i>
             </a>
-            <a href="https://github.com/jonasdspereira" target="_blank" class="footer__social">
+            <a
+              href="https://github.com/jonasdspereira"
+              target="_blank"
+              class="footer__social"
+            >
               <i class="uil uil-github-alt"></i>
             </a>
           </div>
